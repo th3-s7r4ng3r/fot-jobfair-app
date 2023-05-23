@@ -1,0 +1,14 @@
+/* ----- Partnership Componenet CSS ----- */
+.partnerships {
+    box-sizing: border-box;
+    margin: 15px 0px;
+    max-width: 90vw;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #282c34;
+  }
+  .partner-logo {
+    border-radius: 10px;
+    object-fit: cover;
+    height: 4.5vw;
+  }

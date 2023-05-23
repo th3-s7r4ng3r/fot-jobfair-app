@@ -1,0 +1,12 @@
+.floor {
+    margin-top: 15vh;
+    margin-bottom: 1vh;
+    width: 70vw;
+    background-color: #38383831;
+    border-radius: 500px;
+  }
+  .floor-title{
+    font-size: 3rem;
+    padding: 0px 10px 5px;
+    margin: 0px;
+  }

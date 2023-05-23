@@ -1,0 +1,50 @@
+  /* Company Component */
+  .company-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:baseline;
+    justify-content:center;
+  }
+  .company-card{
+    padding: 25px 0px 10px;
+    border-radius: 20px;
+    margin: 20px 25px;
+  }
+  .company-logo{
+    object-fit: cover;
+    max-height: 10vw;
+    min-height: 125px;
+    max-width: 10vw;
+    min-width: 125px;
+    border-radius: 15px;
+    margin: 5px 10px 0px;
+    background-color: white;
+    box-shadow: 2px 2px 40px rgba(0, 0, 0, 0.634);
+  }
+  .title{
+    font-size: 1.5rem;
+    margin: 15px 0px 12px;
+  }
+  .position-list{
+    background-color: #393939bf;
+    min-height: 35vh;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 40px rgba(0, 0, 0, 0.634);
+  }
+  .item{
+    margin: 5px;
+    box-sizing: border-box;
+    font-size: 1.35rem;
+    padding: 5px 25px;
+    width: 275px;
+    text-align: left;
+    background-color: #68686860;
+    border-radius: 12px;
+  }
+  .hall-no{
+    margin: 15px 0px 0px;
+    font-size: 1.5rem;
+    border-radius: 15px;
+  }

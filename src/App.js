@@ -1,30 +1,81 @@
+import CompanyCard from './CompanyCard';
+import Floor from './Floor';
+import Partnerships from './Partnerships';
 import './css/App.css';
 
+
+//Storing details of different companies
+const companies = [{
+  "floor" : "0",
+  "name" : "CodeGen",
+  "logo" : "./images/companies/codegen.jpg",
+  "location" : "LGF 07",
+  "positions" : "Software Developer,Graphic Designer,Network Administrator"
+},{
+  "floor" : "0",
+  "name" : "99X",
+  "logo" : "./images/companies/99x.png",
+  "location" : "LGF 10",
+  "positions" : "Software Developer,Graphic Designer"
+},{
+  "floor" : "0",
+  "name" : "CodeGen",
+  "logo" : "./images/companies/codegen.jpg",
+  "location" : "LGF 07",
+  "positions" : "Software Developer,Graphic Designer,Network Administrator"
+},{
+  "floor" : "1",
+  "name" : "99X",
+  "logo" : "./images/companies/mobitel.jpeg",
+  "location" : "LGF 10",
+  "positions" : "Software Developer,Graphic Designer"
+},{
+  "floor" : "1",
+  "name" : "CodeGen",
+  "logo" : "./images/companies/mas.jpg",
+  "location" : "LGF 07",
+  "positions" : "Software Developer,Graphic Designer,Network Administrator"
+},{
+  "floor" : "1",
+  "name" : "99X",
+  "logo" : "./images/companies/silvermill.svg",
+  "location" : "LGF 10",
+  "positions" : "Software Developer,Graphic Designer"
+}]
+
+
+
+//Main application
 function App() {
+  //declaring variables for all components
+
+
+
+  //displaying all elements in the site
   return (
     <div className="App">
       <header className="App-header">
 
-      {/* <div className='partnerships'>
-          <img src='https://placehold.co/1500x50' alt='header-parternship' className='partner-logo'/>
-      </div> */}
+        <Partnerships imageLink="https://placehold.co/1400x75"/>
 
-      <div className='company-list'>
-        <div className='company-card'>
-          <img src={'./images/companies/codegen.jpg'} alt='company-name' className='company-logo'/>
-          <h3 className='title'>Available Positions</h3>
-          <div className='position-list'>
-            <p className='item'>Graphic Designing</p>
-            <p className='item'>Graphic Designing</p>
-            <p className='item'>Graphic Designing</p>
-        
-          </div>
-          <h3 className='hall-no'>Location : LGF 07</h3>
+        {/* Ground Floor */}
+        <Floor floorText = "Ground Floor"/>
+        <div className='company-list'>
+          {companies.map((company) => (
+              company.floor === "0" ? <CompanyCard company={company}/> : ""
+            ))}   
         </div>
-      </div>
 
-        
 
+        {/* First Floor */}
+        <Floor floorText = "First Floor"/>
+        <div className='company-list'>
+          {companies.map((company) => (
+              company.floor === "1" ? <CompanyCard company={company}/> : ""
+            ))}   
+        </div>
+
+        <Partnerships imageLink="https://placehold.co/1400x75"/>
       </header>
     </div>
   );

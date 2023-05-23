@@ -9,7 +9,7 @@
   text-align: center;
 }
 .App-header {
-  background-color: #2a2a2a;
+  background-color: #232323;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,64 +35,3 @@
 }
 
 
-
-/* ----- Componenet CSS ----- */
-.header {
-  box-sizing: border-box;
-  max-width: 90vw;
-  border-radius: 50px;
-  padding: 5px 50px;
-  margin-bottom: 20px;
-  background-color: #282c34;
-}
-.partner-logo {
-  border-radius: 250px;
-  margin: 15px 20px;
-  object-fit: cover;
-}
-
-
-/* Company Component */
-.company-list{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items:baseline;
-  justify-content:center;
-}
-.company-card{
-  padding: 25px 0px 10px;
-  border-radius: 20px;
-  margin: 20px 25px;
-}
-.company-logo{
-  object-fit: cover;
-  max-height: 10vw;
-  min-height: 125px;
-  max-width: 10vw;
-  min-width: 125px;
-  border-radius: 15px;
-  margin: 5px 10px 0px;
-  background-color: white;
-}
-.title{
-  font-size: 1.5rem;
-  margin: 15px 0px 12px;
-}
-.position-list{
-  background-color: #393939fd;
-  min-height: 35vh;
-  padding: 15px;
-  border-radius: 15px;
-}
-.item{
-  margin: 5px;
-  padding: 5px 25px;
-  background-color: #68686860;
-  border-radius: 12px;
-}
-.hall-no{
-  margin: 15px 0px 0px;
-  font-size: 1.5rem;
-  border-radius: 15px;
-}
