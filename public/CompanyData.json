@@ -1,43 +1,127 @@
 [{
   "floor" : "0",
   "name" : "CodeGen",
-  "logo" : "./images/companies/codeGen.png",
+  "logo" : "./images/companies/codegen.png",
   "location" : "LGF 07",
-  "positions" : "Software Developer,Graphic Designer,Network Administrator"
+  "positions" : "Dummy,Dummy"
 },{
   "floor" : "0",
-  "name" : "aiesec",
-  "logo" : "./images/companies/aiesec.png",
-  "location" : "LGF 11",
-  "positions" : "Software Developer,Graphic Designer, Frontend Developer Intern"
+  "name" : "Acentura",
+  "logo" : "./images/companies/acentura.png",
+  "location" : "LGF 07",
+  "positions" : "Dummy,Dummy"
 },{
   "floor" : "0",
-  "name" : "99X",
+  "name" : "MAS",
+  "logo" : "./images/companies/mas.png",
+  "location" : "LGF 07",
+  "positions" : "Dummy,Dummy"
+},{
+  "floor" : "0",
+  "name" : "99x",
   "logo" : "./images/companies/99x.png",
-  "location" : "LGF 10",
-  "positions" : "Software Developer,Graphic Designer"
+  "location" : "LGF 07",
+  "positions" : "Dummy,Dummy"
 },{
   "floor" : "0",
-  "name" : "CodeGen",
-  "logo" : "./images/companies/codeGen.png",
+  "name" : "AIA",
+  "logo" : "./images/companies/aia.png",
   "location" : "LGF 07",
-  "positions" : "Software Developer,Graphic Designer,Network Administrator"
+  "positions" : "Dummy,Dummy"
 },{
-  "floor" : "1",
-  "name" : "99X",
-  "logo" : "./images/companies/mobitel.jpeg",
-  "location" : "LGF 10",
-  "positions" : "Software Developer,Graphic Designer"
-},{
-  "floor" : "1",
-  "name" : "CodeGen",
-  "logo" : "./images/companies/mas.jpg",
+  "floor" : "0",
+  "name" : "Aiesec",
+  "logo" : "./images/companies/aiesec.png",
   "location" : "LGF 07",
-  "positions" : "Software Developer,Graphic Designer,Network Administrator"
+  "positions" : "Dummy,Dummy"
+},{
+  "floor" : "0",
+  "name" : "Aion Campus",
+  "logo" : "./images/companies/aioncampus.png",
+  "location" : "LGF 07",
+  "positions" : "Dummy,Dummy"
+},{
+  "floor" : "0",
+  "name" : "Asian Paints",
+  "logo" : "./images/companies/asianpaints.png",
+  "location" : "LGF 07",
+  "positions" : "Dummy,Dummy"
+},{
+  "floor" : "0",
+  "name" : "colombo Coffee Shop",
+  "logo" : "./images/companies/colombocofeeshop.png",
+  "location" : "LGF 07",
+  "positions" : "Dummy,Dummy"
+},{
+  "floor" : "0",
+  "name" : "Creative Software",
+  "logo" : "./images/companies/creativesoftware.png",
+  "location" : "LGF 07",
+  "positions" : "Dummy,Dummy"
 },{
   "floor" : "1",
-  "name" : "99X",
-  "logo" : "./images/companies/silvermill.jpg",
-  "location" : "LGF 10",
-  "positions" : "Software Developer,Graphic Designer"
+  "name" : "DFCC",
+  "logo" : "./images/companies/dfcc.png",
+  "location" : "LGF 07",
+  "positions" : "Dummy,Dummy"
+},{
+  "floor" : "1",
+  "name" : "Dialog",
+  "logo" : "./images/companies/dialog.png",
+  "location" : "LGF 07",
+  "positions" : "Dummy,Dummy"
+},{
+  "floor" : "1",
+  "name" : "DIMO",
+  "logo" : "./images/companies/dimo.png",
+  "location" : "LGF 07",
+  "positions" : "Dummy,Dummy"
+},{
+  "floor" : "1",
+  "name" : "Hayleys",
+  "logo" : "./images/companies/hayleys.png",
+  "location" : "LGF 07",
+  "positions" : "Dummy,Dummy"
+},{
+  "floor" : "1",
+  "name" : "IFS",
+  "logo" : "./images/companies/ifs.png",
+  "location" : "LGF 07",
+  "positions" : "Dummy,Dummy"
+},{
+  "floor" : "1",
+  "name" : "Milliman",
+  "logo" : "./images/companies/milliman.png",
+  "location" : "LGF 07",
+  "positions" : "Dummy,Dummy"
+},{
+  "floor" : "1",
+  "name" : "Mobitel",
+  "logo" : "./images/companies/mobitel.png",
+  "location" : "LGF 07",
+  "positions" : "Dummy,Dummy"
+},{
+  "floor" : "1",
+  "name" : "Munchee",
+  "logo" : "./images/companies/munchee.png",
+  "location" : "LGF 07",
+  "positions" : "Dummy,Dummy"
+},{
+  "floor" : "1",
+  "name" : "Nestle",
+  "logo" : "./images/companies/nestle.png",
+  "location" : "LGF 07",
+  "positions" : "Dummy,Dummy"
+},{
+  "floor" : "1",
+  "name" : "Silvermil",
+  "logo" : "./images/companies/silvermill.png",
+  "location" : "LGF 07",
+  "positions" : "Dummy,Dummy"
+},{
+  "floor" : "1",
+  "name" : "TechJobs",
+  "logo" : "./images/companies/techjobs.png",
+  "location" : "LGF 07",
+  "positions" : "Dummy,Dummy"
 }]

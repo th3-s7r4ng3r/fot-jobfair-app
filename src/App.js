@@ -33,7 +33,7 @@ function App() {
 
         {/* Logo and Partnerships */}
         <div className='section-back'>
-          <img src='./images/logo.png' alt='Touch the Peak 2023 Logo' className='ttp-logo' />
+          <img src='./images/ttp-logo.png' alt='Touch the Peak 2023 Logo' className='ttp-logo' />
           <Partnerships/>
         </div>
 
