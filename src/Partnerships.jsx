@@ -10,7 +10,7 @@ const partners = [
 const Partnerships = () => {
     return(
     <div className='partnerships'>
-        <h3 className='partner-title'>Faculty<br/>Partners</h3>
+        <h3 className='partner-title'>Faculty Partners</h3>
         {partners.map((partner) => (
             <img src={partner} alt='parternship logos' className='partner-logo'/>
         ))}

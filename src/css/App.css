@@ -17,8 +17,9 @@
   color: white;
 }
 .section-back{
-  min-height: 100vh;
+  min-height: 110vh;
   width: 100%;
+  border-radius: 0px 0px 5vw 5vw;
   background-color: rgba(0, 0, 0, 0.634);
 }
 .ttp-logo{
@@ -26,6 +27,18 @@
 }
 .footer-sec{
   margin: 50px 0px;
+}
+.search{
+  margin: 50px 30px 50px;
+}
+.search-box{
+  font-size: 1.8rem;
+  padding: 10px 30px;
+  border-radius: 250px;
+  background-color: #232323;
+  border: none;
+  color: rgb(138, 138, 138);
+  width: 40vw;
 }
 
 
@@ -45,10 +58,26 @@
   }
 }
 
+
+/* Making Responsive */
 @media all and (max-width : 600px){
   .ttp-logo{
+    box-sizing: border-box;
     height: auto;
-    width: 80vw;
+    margin: calc((100vh - 100vw)/2) auto calc((100vh - 90vw)/2);
+    width: 90vw;
+  }
+  .section-back{
+    padding-bottom: 5vh;
+    border-radius: 0px 0px 10vw 10vw;
+  }
+}
+
+@media all and (max-width : 1200px){
+  .ttp-logo{
+    box-sizing: border-box;
+    height: auto;
+    width: 90vw;
   }
 }
 

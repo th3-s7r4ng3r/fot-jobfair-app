@@ -10,6 +10,16 @@ import { useState, useEffect } from 'react';
 function App() {
   //Storing details of different companies
   const [companies, setCompanies] = useState([]);
+  const [searchText, setSearchText] = useState("");
+  const [searchResults, setSearchResults] = useState([]);
+
+  //filtering data based on the search
+  const filterData = companies.filter((company) => (
+    searchText === "" ? companies : company.name.toLowerCase().includes(searchText.toLowerCase())
+  ))
+  const searchChange = (event) => {
+    setSearchText(event.target.value);
+  }
 
   //reading data from the files
   useEffect(() => {
@@ -23,7 +33,8 @@ function App() {
       }
     };
     readDataFile();
-  }, [])
+    setSearchResults(filterData);
+  }, [searchText])
 
   
   //displaying all elements in the site
@@ -35,14 +46,20 @@ function App() {
         <div className='section-back'>
           <img src='./images/ttp-logo.png' alt='Touch the Peak 2023 Logo' className='ttp-logo' />
           <Partnerships/>
+
+
+        {/* Search Area */}
+          <div className='search'>
+            <input type='text' value={searchText} onChange={searchChange} placeholder='Search company name' className='search-box'></input>
+          </div>
         </div>
 
 
         {/* Ground Floor */}
         <Floor floorText = "Ground Floor"/>
         <div className='company-list'>
-          {companies.map((company) => (
-              company.floor === "0" ? <CompanyCard company={company}/> : ""
+          {searchResults.map((company) => (
+              company.floor === "0" && <CompanyCard company={company}/>
             ))}   
         </div>
 
@@ -50,8 +67,8 @@ function App() {
         {/* First Floor */}
         <Floor floorText = "First Floor"/>
         <div className='company-list'>
-          {companies.map((company) => (
-              company.floor === "1" ? <CompanyCard company={company}/> : ""
+          {searchResults.map((company) => (
+              company.floor === "1" && <CompanyCard company={company}/>
             ))}   
         </div>
 

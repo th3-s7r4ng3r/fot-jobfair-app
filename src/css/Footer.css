@@ -10,6 +10,7 @@
     width: 100%;
     box-sizing: border-box;
     padding: 25px;
+    border-radius: 5vw 5vw 0px 0px;
   }
   .footer-image{
     width: 50vw;
@@ -33,9 +34,11 @@
     margin: 5px;
   }
   .contact-us p{
+    box-sizing: border-box;
     font-size: 1.3rem;
     text-align: left;
     padding: 10px;
+    width: 80%;
     border-radius: 15px;
     margin: 10px 0px;
     color: rgb(191, 191, 191);
@@ -44,7 +47,27 @@
   }
   .contact-us p p{
     margin-top: 0px;
+    width: 100%;
     color: rgb(255, 255, 255);
     font-weight: bold;
     border-radius: 10px;
   }
+
+  
+  /* Making Responsive */
+@media all and (max-width : 600px){
+  .footer{
+    border-radius: 10vw 10vw 0px 0px;
+  }
+  .footer-image{
+    width: 90vw;
+    margin: 3vh;
+  }
+  .contact-us{
+    width: 100%;
+    font-size: 1.8rem;
+  }
+  .contact-us p{
+    width: 100%;
+  }
+}

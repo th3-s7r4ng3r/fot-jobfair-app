@@ -20,7 +20,7 @@
   "floor" : "0",
   "name" : "99x",
   "logo" : "./images/companies/99x.png",
-  "location" : "LGF 07",
+  "location" : "LGF 08",
   "positions" : "DummPosition,DummyPosition"
 },{
   "floor" : "0",
@@ -62,37 +62,37 @@
   "floor" : "1",
   "name" : "DFCC",
   "logo" : "./images/companies/dfcc.png",
-  "location" : "LGF 07",
+  "location" : "GF 07",
   "positions" : "DummPosition,DummyPosition"
 },{
   "floor" : "1",
   "name" : "Dialog",
   "logo" : "./images/companies/dialog.png",
-  "location" : "LGF 07",
+  "location" : "GF 07",
   "positions" : "DummPosition,DummyPosition"
 },{
   "floor" : "1",
   "name" : "DIMO",
   "logo" : "./images/companies/dimo.png",
-  "location" : "LGF 07",
+  "location" : "GF 07",
   "positions" : "DummPosition,DummyPosition"
 },{
   "floor" : "1",
   "name" : "Hayleys",
   "logo" : "./images/companies/hayleys.png",
-  "location" : "LGF 07",
+  "location" : "GF 07",
   "positions" : "DummPosition,DummyPosition"
 },{
   "floor" : "1",
   "name" : "IFS",
   "logo" : "./images/companies/ifs.png",
-  "location" : "LGF 07",
+  "location" : "GF 07",
   "positions" : "DummPosition,DummyPosition"
 },{
   "floor" : "1",
   "name" : "Milliman",
   "logo" : "./images/companies/milliman.png",
-  "location" : "LGF 07",
+  "location" : "GF 07",
   "positions" : "DummPosition,DummyPosition"
 },{
   "floor" : "1",
@@ -104,24 +104,24 @@
   "floor" : "1",
   "name" : "Munchee",
   "logo" : "./images/companies/munchee.png",
-  "location" : "LGF 07",
+  "location" : "GF 07",
   "positions" : "DummPosition,DummyPosition"
 },{
   "floor" : "1",
   "name" : "Nestle",
   "logo" : "./images/companies/nestle.png",
-  "location" : "LGF 07",
+  "location" : "GF 07",
   "positions" : "DummPosition,DummyPosition"
 },{
   "floor" : "1",
   "name" : "Silvermil",
   "logo" : "./images/companies/silvermill.png",
-  "location" : "LGF 07",
+  "location" : "GF 07",
   "positions" : "DummPosition,DummyPosition"
 },{
   "floor" : "1",
   "name" : "TechJobs",
   "logo" : "./images/companies/techjobs.png",
-  "location" : "LGF 07",
+  "location" : "GF 07",
   "positions" : "DummPosition,DummyPosition"
 }]
