@@ -7,7 +7,7 @@
     justify-content:center;
   }
   .company-card{
-    padding: 25px 0px 10px;
+    padding: 10px 0px 0px;
     border-radius: 20px;
     margin: 20px 25px;
   }
@@ -36,15 +36,20 @@
   .item{
     margin: 5px;
     box-sizing: border-box;
-    font-size: 1.35rem;
+    font-size: 1.25rem;
     padding: 5px 25px;
     width: 275px;
+    color: rgb(215, 215, 215);
     text-align: left;
     background-color: #68686860;
     border-radius: 12px;
   }
   .hall-no{
     margin: 15px 0px 0px;
+    box-sizing: border-box;
     font-size: 1.5rem;
     border-radius: 15px;
+    background-color: #393939bf;
+    width: 320px;
+    padding: 5px;
   }

@@ -1,62 +1,43 @@
 import CompanyCard from './CompanyCard';
 import Floor from './Floor';
+import Footer from './Footer';
 import Partnerships from './Partnerships';
 import './css/App.css';
-
-
-//Storing details of different companies
-const companies = [{
-  "floor" : "0",
-  "name" : "CodeGen",
-  "logo" : "./images/companies/codegen.jpg",
-  "location" : "LGF 07",
-  "positions" : "Software Developer,Graphic Designer,Network Administrator"
-},{
-  "floor" : "0",
-  "name" : "99X",
-  "logo" : "./images/companies/99x.png",
-  "location" : "LGF 10",
-  "positions" : "Software Developer,Graphic Designer"
-},{
-  "floor" : "0",
-  "name" : "CodeGen",
-  "logo" : "./images/companies/codegen.jpg",
-  "location" : "LGF 07",
-  "positions" : "Software Developer,Graphic Designer,Network Administrator"
-},{
-  "floor" : "1",
-  "name" : "99X",
-  "logo" : "./images/companies/mobitel.jpeg",
-  "location" : "LGF 10",
-  "positions" : "Software Developer,Graphic Designer"
-},{
-  "floor" : "1",
-  "name" : "CodeGen",
-  "logo" : "./images/companies/mas.jpg",
-  "location" : "LGF 07",
-  "positions" : "Software Developer,Graphic Designer,Network Administrator"
-},{
-  "floor" : "1",
-  "name" : "99X",
-  "logo" : "./images/companies/silvermill.svg",
-  "location" : "LGF 10",
-  "positions" : "Software Developer,Graphic Designer"
-}]
-
+import { useState, useEffect } from 'react';
 
 
 //Main application
 function App() {
-  //declaring variables for all components
+  //Storing details of different companies
+  const [companies, setCompanies] = useState([]);
 
+  //reading data from the files
+  useEffect(() => {
+    const readDataFile = async () => {
+      try {
+        const content = await fetch('./CompanyData.json');
+        const contentText = await content.json();
+        setCompanies(contentText);
+      } catch(error){
+        console.error(error);
+      }
+    };
 
+    readDataFile();
+  }, [])
 
+  
   //displaying all elements in the site
   return (
     <div className="App">
-      <header className="App-header">
+      <section className="App-section">
 
-        <Partnerships imageLink="https://placehold.co/1400x75"/>
+        <div className='section-back'>
+          {/* Logo and Partnerships */}
+          <img src='./images/logo.png' alt='Touch the Peak 2023 Logo' className='ttp-logo' />
+          <Partnerships/>
+        </div>
+
 
         {/* Ground Floor */}
         <Floor floorText = "Ground Floor"/>
@@ -75,8 +56,15 @@ function App() {
             ))}   
         </div>
 
-        <Partnerships imageLink="https://placehold.co/1400x75"/>
-      </header>
+
+        {/* Footer Section */}
+        <div className='footer-sec'>
+          <Partnerships/>
+        </div>
+        <Footer/>
+
+
+      </section>
     </div>
   );
 }

@@ -1,0 +1,43 @@
+[{
+  "floor" : "0",
+  "name" : "CodeGen",
+  "logo" : "./images/companies/codeGen.png",
+  "location" : "LGF 07",
+  "positions" : "Software Developer,Graphic Designer,Network Administrator"
+},{
+  "floor" : "0",
+  "name" : "aiesec",
+  "logo" : "./images/companies/aiesec.png",
+  "location" : "LGF 11",
+  "positions" : "Software Developer,Graphic Designer, Frontend Developer Intern"
+},{
+  "floor" : "0",
+  "name" : "99X",
+  "logo" : "./images/companies/99x.png",
+  "location" : "LGF 10",
+  "positions" : "Software Developer,Graphic Designer"
+},{
+  "floor" : "0",
+  "name" : "CodeGen",
+  "logo" : "./images/companies/codeGen.png",
+  "location" : "LGF 07",
+  "positions" : "Software Developer,Graphic Designer,Network Administrator"
+},{
+  "floor" : "1",
+  "name" : "99X",
+  "logo" : "./images/companies/mobitel.jpeg",
+  "location" : "LGF 10",
+  "positions" : "Software Developer,Graphic Designer"
+},{
+  "floor" : "1",
+  "name" : "CodeGen",
+  "logo" : "./images/companies/mas.jpg",
+  "location" : "LGF 07",
+  "positions" : "Software Developer,Graphic Designer,Network Administrator"
+},{
+  "floor" : "1",
+  "name" : "99X",
+  "logo" : "./images/companies/silvermill.jpg",
+  "location" : "LGF 10",
+  "positions" : "Software Developer,Graphic Designer"
+}]

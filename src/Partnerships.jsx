@@ -1,10 +1,19 @@
 import React from 'react';
 import './css/Partnerships.css';
 
-const Partnerships = ({imageLink}) => {
+const partners = [
+    "./images/partners/codegen.png",
+    "./images/partners/acentura.png",
+    "./images/partners/mas.png",
+    "./images/partners/csds.png"]
+
+const Partnerships = () => {
     return(
     <div className='partnerships'>
-        <img src={imageLink} alt='header-parternship' className='partner-logo'/>
+        <h3 className='partner-title'>Faculty<br/>Partners</h3>
+        {partners.map((partner) => (
+            <img src={partner} alt='parternship logos' className='partner-logo'/>
+        ))}
     </div>
     );
 }

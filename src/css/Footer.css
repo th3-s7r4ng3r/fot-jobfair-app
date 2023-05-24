@@ -1,0 +1,50 @@
+
+/* Footer Component */
+.footer {
+    background-color: rgba(0, 0, 0, 0.634);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 25px;
+  }
+  .footer-image{
+    width: 50vw;
+    object-fit: scale-down;
+    margin: 3vh;
+  }
+  .contact-us{
+    padding: 10px;
+    box-sizing: border-box;
+    width: 30vw;
+  }
+  .contacts{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+  }
+  .contact-us h3{
+    padding: 10px;
+    margin: 5px;
+  }
+  .contact-us p{
+    font-size: 1.3rem;
+    text-align: left;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 10px 0px;
+    color: rgb(191, 191, 191);
+    background-color: #3e3e3e98;
+    min-width: 20vw;
+  }
+  .contact-us p p{
+    margin-top: 0px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius: 10px;
+  }
