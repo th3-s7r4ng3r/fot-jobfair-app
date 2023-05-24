@@ -71,3 +71,17 @@
     width: 100%;
   }
 }
+
+@media all and (max-width : 1200px){
+  .footer-image{
+    width: 90vw;
+    margin: 5vh;
+  }
+  .contact-us{
+    width: 95%;
+    font-size: 1.8rem;
+  }
+  .contact-us p{
+    width: 90%;
+  }
+}

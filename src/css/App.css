@@ -91,7 +91,9 @@
   .ttp-logo{
     box-sizing: border-box;
     height: auto;
+    margin: calc((100vh - 100vw)/2) auto calc((100vh - 90vw)/2);
     width: 90vw;
+    
   }
 }
 

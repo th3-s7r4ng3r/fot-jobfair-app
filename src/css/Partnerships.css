@@ -38,3 +38,17 @@
     color: rgb(217, 217, 217);
   }
 }
+@media all and (max-width : 1200px){
+  .partner-logo {
+    border-radius: 10px;
+    object-fit: cover;
+    margin: 5px 5px;
+    height: 10vh;
+  }
+  .partner-title {
+    margin: 20px 30px 20px;
+    width: 90vw;
+    font-size: 2rem;
+    color: rgb(217, 217, 217);
+  }
+}
