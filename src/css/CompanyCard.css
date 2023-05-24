@@ -66,6 +66,7 @@
     padding: 15px 0px 10px;
     margin: 10px 5px;
     max-width: 80vw;
+    min-width: 80vw;
   }
   .title{
     color: #cccccc;
@@ -78,6 +79,9 @@
   }
   .hall-no{
     color: #777777;
+    font-size: 1.3rem;
     background-color: #39393900;
+    max-width: 80vw;
+    min-width: 80vw;
   }
 }
