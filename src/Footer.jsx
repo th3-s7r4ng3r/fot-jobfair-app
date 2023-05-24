@@ -17,7 +17,7 @@ const Footer = () => {
               <b>Sanjeewa</b> : 076 311 7308<br/>
               <b>Shehan</b> : 078 833 6181
             </p>
-            <p><p>Finance Advisor</p>
+            <p><p>For More Details</p>
               <b>Naveen</b> :  071 176 6662
             </p>
           </div>
