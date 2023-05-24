@@ -22,7 +22,6 @@ function App() {
         console.error(error);
       }
     };
-
     readDataFile();
   }, [])
 
@@ -32,8 +31,8 @@ function App() {
     <div className="App">
       <section className="App-section">
 
+        {/* Logo and Partnerships */}
         <div className='section-back'>
-          {/* Logo and Partnerships */}
           <img src='./images/logo.png' alt='Touch the Peak 2023 Logo' className='ttp-logo' />
           <Partnerships/>
         </div>

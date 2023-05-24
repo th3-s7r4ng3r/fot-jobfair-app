@@ -9,7 +9,7 @@
   .company-card{
     padding: 10px 0px 0px;
     border-radius: 20px;
-    margin: 20px 25px;
+    margin: 20px 20px;
   }
   .company-logo{
     object-fit: cover;
@@ -29,7 +29,7 @@
   .position-list{
     background-color: #393939bf;
     min-height: 35vh;
-    padding: 15px;
+    padding: 10px;
     border-radius: 15px;
     box-shadow: 2px 2px 40px rgba(0, 0, 0, 0.634);
   }
@@ -38,14 +38,14 @@
     box-sizing: border-box;
     font-size: 1.25rem;
     padding: 5px 25px;
-    width: 275px;
+    width: auto;
     color: rgb(215, 215, 215);
     text-align: left;
     background-color: #68686860;
     border-radius: 12px;
   }
   .hall-no{
-    margin: 15px 0px 0px;
+    margin: 10px 0px 0px;
     box-sizing: border-box;
     font-size: 1.5rem;
     border-radius: 15px;
