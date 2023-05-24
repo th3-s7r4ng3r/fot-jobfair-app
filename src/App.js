@@ -13,13 +13,7 @@ function App() {
   const [searchText, setSearchText] = useState("");
   const [searchResults, setSearchResults] = useState([]);
 
-  //filtering data based on the search
-  const filterData = () => {
-    const filteredData = companies.filter((company) =>
-      searchText === "" ? companies : company.name.toLowerCase().includes(searchText.toLowerCase())
-    );
-    setSearchResults(filteredData);
-  };
+  //reacting to the changes in the search box
   const searchChange = (event) => {
     setSearchText(event.target.value);
   };
@@ -40,6 +34,13 @@ function App() {
 
   //filter according to changes in the searchbox
   useEffect(() => {
+    //filtering data based on the search
+    const filterData = () => {
+      const filteredData = companies.filter((company) =>
+        searchText === "" ? companies : company.name.toLowerCase().includes(searchText.toLowerCase())
+      );
+      setSearchResults(filteredData);
+    };
     filterData();
   }, [companies, searchText]);
 
