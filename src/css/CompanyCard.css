@@ -9,7 +9,9 @@
   .company-card{
     padding: 10px 0px 0px;
     border-radius: 20px;
-    margin: 20px 20px;
+    margin: 20px 5px;
+    max-width: 25vw;
+    transition: 0.3s;
   }
   .company-logo{
     object-fit: cover;
@@ -21,6 +23,7 @@
     margin: 5px 10px 0px;
     background-color: white;
     box-shadow: 2px 2px 40px rgba(0, 0, 0, 0.634);
+    transition: 0.3s;
   }
   .title{
     font-size: 1.5rem;
@@ -28,7 +31,7 @@
   }
   .position-list{
     background-color: #393939bf;
-    min-height: 35vh;
+    min-height: auto;
     padding: 10px;
     border-radius: 15px;
     box-shadow: 2px 2px 40px rgba(0, 0, 0, 0.634);
@@ -38,7 +41,7 @@
     box-sizing: border-box;
     font-size: 1.25rem;
     padding: 5px 25px;
-    width: auto;
+    width: calc(100%-5px);
     color: rgb(215, 215, 215);
     text-align: left;
     background-color: #68686860;
@@ -49,7 +52,36 @@
     box-sizing: border-box;
     font-size: 1.5rem;
     border-radius: 15px;
-    background-color: #393939bf;
-    width: 320px;
+    background-color: #3939396b;
+    max-width: 25vw;
+    min-width: 20vw;
     padding: 5px;
   }
+
+
+  /* Making Responsive */
+@media all and (max-width : 600px){
+  .company-card{
+    border: 1px solid #696969;
+    padding: 15px 0px 10px;
+    margin: 10px 5px;
+    max-width: 80vw;
+    min-width: 80vw;
+  }
+  .title{
+    color: #cccccc;
+  }
+  .position-list{
+    min-height: auto;
+  }
+  .item{
+    border-radius: 7px;
+  }
+  .hall-no{
+    color: #777777;
+    font-size: 1.3rem;
+    background-color: #39393900;
+    max-width: 80vw;
+    min-width: 80vw;
+  }
+}

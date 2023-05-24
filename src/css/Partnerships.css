@@ -2,7 +2,7 @@
 .partnerships {
     box-sizing: border-box;
     margin: 5px auto 20px;
-    max-width: 85vw;
+    max-width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -10,7 +10,7 @@
     align-content: center;
     justify-items: center;
   }
-  .partner-logo {
+.partner-logo {
     border-radius: 10px;
     object-fit: cover;
     margin: auto 10px;
@@ -19,5 +19,36 @@
   }
 .partner-title {
     margin: 20px 30px;
+    width: 150px;
     color: rgb(123, 123, 123);
   }
+
+
+/* Making Responsive */
+@media all and (max-width :600px){
+  .partner-logo {
+    border-radius: 8px;
+    object-fit: cover;
+    margin: 3px 10px;
+  }
+  .partner-title {
+    margin: 20px 30px 20px;
+    width: auto;
+    font-size: 1.8rem;
+    color: rgb(217, 217, 217);
+  }
+}
+@media all and (max-width : 1200px){
+  .partner-logo {
+    border-radius: 10px;
+    object-fit: cover;
+    margin: 5px 5px;
+    height: 10vh;
+  }
+  .partner-title {
+    margin: 20px 30px 20px;
+    width: 90vw;
+    font-size: 2rem;
+    color: rgb(217, 217, 217);
+  }
+}

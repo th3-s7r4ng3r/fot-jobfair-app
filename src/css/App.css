@@ -1,5 +1,4 @@
 /* ---- Main App ---- */
-
 /* * {
   outline: 1px solid green;
 } */
@@ -18,8 +17,9 @@
   color: white;
 }
 .section-back{
-  min-height: 100vh;
+  min-height: 110vh;
   width: 100%;
+  border-radius: 0px 0px 5vw 5vw;
   background-color: rgba(0, 0, 0, 0.634);
 }
 .ttp-logo{
@@ -27,6 +27,22 @@
 }
 .footer-sec{
   margin: 50px 0px;
+}
+.search{
+  margin: 50px 30px 50px;
+}
+.search-box{
+  font-size: 1.8rem;
+  padding: 10px 30px;
+  border-radius: 250px;
+  background-color: #232323;
+  border: none;
+  color: rgb(177, 177, 177);
+  width: 40vw;
+  transition: 0.3s;
+}
+.search-box:hover{
+  background-color: #2f2f2f;
 }
 
 
@@ -46,10 +62,38 @@
   }
 }
 
+
+/* Making Responsive */
 @media all and (max-width : 600px){
   .ttp-logo{
+    box-sizing: border-box;
     height: auto;
+    margin: calc((100vh - 100vw)/2) auto calc((100vh - 90vw)/2);
+    width: 90vw;
+  }
+  .section-back{
+    padding-bottom: 5vh;
+    border-radius: 0px 0px 10vw 10vw;
+  }
+  .search{
+    margin: 60px auto 0px;
+  }
+  .search-box{
+    box-sizing: border-box;
+    font-size: 1.4rem;
+    padding: 10px 15px;
+    border-radius: 15px;
     width: 80vw;
+  }
+}
+
+@media all and (max-width : 1200px){
+  .ttp-logo{
+    box-sizing: border-box;
+    height: auto;
+    margin: calc((100vh - 100vw)/2) auto calc((100vh - 90vw)/2);
+    width: 90vw;
+    
   }
 }
 
