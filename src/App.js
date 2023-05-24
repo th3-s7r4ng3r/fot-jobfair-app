@@ -14,12 +14,15 @@ function App() {
   const [searchResults, setSearchResults] = useState([]);
 
   //filtering data based on the search
-  const filterData = companies.filter((company) => (
-    searchText === "" ? companies : company.name.toLowerCase().includes(searchText.toLowerCase())
-  ))
+  const filterData = () => {
+    const filteredData = companies.filter((company) =>
+      searchText === "" ? companies : company.name.toLowerCase().includes(searchText.toLowerCase())
+    );
+    setSearchResults(filteredData);
+  };
   const searchChange = (event) => {
     setSearchText(event.target.value);
-  }
+  };
 
   //reading data from the files
   useEffect(() => {
@@ -28,15 +31,20 @@ function App() {
         const content = await fetch('./CompanyData.json');
         const contentText = await content.json();
         setCompanies(contentText);
-      } catch(error){
+      } catch (error) {
         console.error(error);
       }
     };
     readDataFile();
-    setSearchResults(filterData);
-  }, [searchText])
+  }, []);
 
-  
+  //filter according to changes in the searchbox
+  useEffect(() => {
+    filterData();
+  }, [companies, searchText]);
+
+
+
   //displaying all elements in the site
   return (
     <div className="App">
@@ -45,39 +53,39 @@ function App() {
         {/* Logo and Partnerships */}
         <div className='section-back'>
           <img src='./images/ttp-logo.png' alt='Touch the Peak 2023 Logo' className='ttp-logo' />
-          <Partnerships/>
+          <Partnerships />
 
 
-        {/* Search Area */}
+          {/* Search Area */}
           <div className='search'>
-            <input type='text' value={searchText} onChange={searchChange} placeholder='Search company name' className='search-box'></input>
+            <input type='text' value={searchText} onChange={searchChange} placeholder='Search company' className='search-box'></input>
           </div>
         </div>
 
 
         {/* Ground Floor */}
-        <Floor floorText = "Ground Floor"/>
+        <Floor floorText="Ground Floor" />
         <div className='company-list'>
           {searchResults.map((company) => (
-              company.floor === "0" && <CompanyCard company={company}/>
-            ))}   
+            company.floor === "0" && <CompanyCard company={company} />
+          ))}
         </div>
 
 
         {/* First Floor */}
-        <Floor floorText = "First Floor"/>
+        <Floor floorText="First Floor" />
         <div className='company-list'>
           {searchResults.map((company) => (
-              company.floor === "1" && <CompanyCard company={company}/>
-            ))}   
+            company.floor === "1" && <CompanyCard company={company} />
+          ))}
         </div>
 
 
         {/* Footer Section */}
         <div className='footer-sec'>
-          <Partnerships/>
+          <Partnerships />
         </div>
-        <Footer/>
+        <Footer />
 
 
       </section>

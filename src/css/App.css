@@ -37,8 +37,12 @@
   border-radius: 250px;
   background-color: #232323;
   border: none;
-  color: rgb(138, 138, 138);
+  color: rgb(177, 177, 177);
   width: 40vw;
+  transition: 0.3s;
+}
+.search-box:hover{
+  background-color: #2f2f2f;
 }
 
 
@@ -70,6 +74,16 @@
   .section-back{
     padding-bottom: 5vh;
     border-radius: 0px 0px 10vw 10vw;
+  }
+  .search{
+    margin: 60px auto 0px;
+  }
+  .search-box{
+    box-sizing: border-box;
+    font-size: 1.4rem;
+    padding: 10px 15px;
+    border-radius: 15px;
+    width: 80vw;
   }
 }
 

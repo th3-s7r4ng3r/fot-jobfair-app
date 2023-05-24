@@ -1,127 +1,133 @@
 [{
   "floor" : "0",
+  "name" : "CSDS",
+  "logo" : "./images/companies/csds.png",
+  "location" : "Operation Room - LGF 06",
+  "positions" : ""
+},{
+  "floor" : "0",
   "name" : "CodeGen",
   "logo" : "./images/companies/codegen.png",
-  "location" : "LGF 07",
-  "positions" : "DummPosition,DummyPosition"
+  "location" : "LGF 02",
+  "positions" : "Software Engineering,Quality Assurance,Business Analyst,Tech Ops,Project Management,Mechatronics,Electronics"
 },{
   "floor" : "0",
   "name" : "Acentura",
   "logo" : "./images/companies/acentura.png",
-  "location" : "LGF 07",
-  "positions" : "DummPosition,DummyPosition"
+  "location" : "LGF Open Space & LGF 01",
+  "positions" : "ICT Graduates"
 },{
   "floor" : "0",
   "name" : "MAS",
   "logo" : "./images/companies/mas.png",
-  "location" : "LGF 07",
-  "positions" : "DummPosition,DummyPosition"
+  "location" : "LGF Open Space",
+  "positions" : ""
 },{
   "floor" : "0",
   "name" : "99x",
   "logo" : "./images/companies/99x.png",
   "location" : "LGF 08",
-  "positions" : "DummPosition,DummyPosition"
+  "positions" : "ICT Graduates"
 },{
   "floor" : "0",
   "name" : "AIA",
   "logo" : "./images/companies/aia.png",
-  "location" : "LGF 07",
-  "positions" : "DummPosition,DummyPosition"
+  "location" : "LGF 04",
+  "positions" : ""
 },{
-  "floor" : "0",
+  "floor" : "1",
   "name" : "Aiesec",
   "logo" : "./images/companies/aiesec.png",
-  "location" : "LGF 07",
-  "positions" : "DummPosition,DummyPosition"
+  "location" : "GF 02",
+  "positions" : ""
 },{
-  "floor" : "0",
+  "floor" : "1",
   "name" : "Aion Campus",
   "logo" : "./images/companies/aioncampus.png",
-  "location" : "LGF 07",
-  "positions" : "DummPosition,DummyPosition"
+  "location" : "GF 07",
+  "positions" : ""
 },{
-  "floor" : "0",
+  "floor" : "1",
   "name" : "Asian Paints",
   "logo" : "./images/companies/asianpaints.png",
-  "location" : "LGF 07",
-  "positions" : "DummPosition,DummyPosition"
+  "location" : "GF 09",
+  "positions" : ""
 },{
-  "floor" : "0",
+  "floor" : "1",
   "name" : "colombo Coffee Shop",
   "logo" : "./images/companies/colombocofeeshop.png",
-  "location" : "LGF 07",
-  "positions" : "DummPosition,DummyPosition"
+  "location" : "GF 01",
+  "positions" : ""
 },{
   "floor" : "0",
   "name" : "Creative Software",
   "logo" : "./images/companies/creativesoftware.png",
-  "location" : "LGF 07",
-  "positions" : "DummPosition,DummyPosition"
+  "location" : "LGF 05",
+  "positions" : ""
 },{
   "floor" : "1",
   "name" : "DFCC",
   "logo" : "./images/companies/dfcc.png",
-  "location" : "GF 07",
-  "positions" : "DummPosition,DummyPosition"
+  "location" : "",
+  "positions" : ""
 },{
-  "floor" : "1",
+  "floor" : "0",
   "name" : "Dialog",
   "logo" : "./images/companies/dialog.png",
-  "location" : "GF 07",
-  "positions" : "DummPosition,DummyPosition"
+  "location" : "LGF 03",
+  "positions" : "ICT Graduates"
 },{
-  "floor" : "1",
+  "floor" : "0",
   "name" : "DIMO",
   "logo" : "./images/companies/dimo.png",
-  "location" : "GF 07",
-  "positions" : "DummPosition,DummyPosition"
+  "location" : "LGF 07",
+  "positions" : ""
 },{
   "floor" : "1",
   "name" : "Hayleys",
   "logo" : "./images/companies/hayleys.png",
-  "location" : "GF 07",
-  "positions" : "DummPosition,DummyPosition"
+  "location" : "",
+  "positions" : ""
 },{
   "floor" : "1",
   "name" : "IFS",
   "logo" : "./images/companies/ifs.png",
-  "location" : "GF 07",
-  "positions" : "DummPosition,DummyPosition"
+  "location" : "",
+  "positions" : "ICT Graduates"
 },{
-  "floor" : "1",
+  "floor" : "0",
   "name" : "Milliman",
   "logo" : "./images/companies/milliman.png",
-  "location" : "GF 07",
-  "positions" : "DummPosition,DummyPosition"
+  "location" : "LGF 09",
+  "positions" : ""
 },{
   "floor" : "1",
   "name" : "Mobitel",
   "logo" : "./images/companies/mobitel.png",
-  "location" : "LGF 07",
-  "positions" : "DummPosition,DummyPosition"
+  "location" : "",
+  "positions" : "ICT Graduates"
 },{
   "floor" : "1",
   "name" : "Munchee",
   "logo" : "./images/companies/munchee.png",
-  "location" : "GF 07",
-  "positions" : "DummPosition,DummyPosition"
+  "location" : "",
+  "positions" : "Food Science / IBST,Human Resources Management,Marketing,Engineering,Finance"
 },{
-  "floor" : "1",
+  "floor" : "0",
   "name" : "Nestle",
   "logo" : "./images/companies/nestle.png",
-  "location" : "GF 07",
-  "positions" : "DummPosition,DummyPosition"
+  "location" : "LGF Open Space",
+  "positions" : ""
 },{
   "floor" : "1",
   "name" : "Silvermil",
   "logo" : "./images/companies/silvermill.png",
-  "location" : "GF 07",
-  "positions" : "DummPosition,DummyPosition"
+  "location" : "GF 08",
+  "positions" : "Food Industry"
 },{
   "floor" : "1",
   "name" : "TechJobs",
   "logo" : "./images/companies/techjobs.png",
-  "location" : "GF 07",
-  "positions" : "DummPosition,DummyPosition"
+  "location" : "",
+  "positions" : "Assistant Hydromechanical Engineer,Assistant Engineering (Plumbing),Maintainance Executive,Application Engineer (Compressed Air),Electrical Engineer"
 }]
