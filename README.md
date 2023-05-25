@@ -1,4 +1,4 @@
-# Getting Started with Touch The Peek App
+# Getting Started with Touch The Peak App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
