@@ -15,25 +15,25 @@
   "name" : "Acentura",
   "logo" : "./images/companies/acentura.png",
   "location" : "LGF Open Space & LGF 01",
-  "positions" : "ICT Graduates"
+  "positions" : "QA Engineers (Intern),.Net Engineers (Intern),React Engineers (Intern)"
 },{
   "floor" : "0",
   "name" : "MAS",
   "logo" : "./images/companies/mas.png",
   "location" : "LGF Open Space",
-  "positions" : ""
+  "positions" : "Marketing,Merchandising,Pattern Technology,Fabric Technology,HR Management,Finance,Digital Design,Industrial Engineering, IT,System Support,Polymer"
 },{
   "floor" : "0",
   "name" : "99x",
   "logo" : "./images/companies/99x.png",
   "location" : "LGF 08",
-  "positions" : "ICT Graduates"
+  "positions" : "Software Engineers"
 },{
   "floor" : "0",
   "name" : "Creative Software",
   "logo" : "./images/companies/creativesoftware.png",
   "location" : "LGF 05",
-  "positions" : ""
+  "positions" : "Software Engineers, Quality Assurance"
 },{
   "floor" : "0",
   "name" : "Milliman",
@@ -51,7 +51,7 @@
   "name" : "Dialog",
   "logo" : "./images/companies/dialog.png",
   "location" : "LGF 03",
-  "positions" : "ICT Graduates"
+  "positions" : "Quality Assurance, IT, Project Management"
 },{
   "floor" : "1",
   "name" : "Silvermil",
@@ -93,9 +93,9 @@
   "name" : "AIA",
   "logo" : "./images/companies/aia.png",
   "location" : "LGF 04",
-  "positions" : ""
+  "positions" : "IT,Actuarial"
 },{
-  "floor" : "1",
+  "floor" : "",
   "name" : "DFCC",
   "logo" : "./images/companies/dfcc.png",
   "location" : "",
@@ -104,10 +104,10 @@
   "floor" : "1",
   "name" : "Hayleys",
   "logo" : "./images/companies/hayleys.png",
-  "location" : "",
+  "location" : "GF 06",
   "positions" : ""
 },{
-  "floor" : "1",
+  "floor" : "",
   "name" : "IFS",
   "logo" : "./images/companies/ifs.png",
   "location" : "",
@@ -119,15 +119,15 @@
   "location" : "GF 03",
   "positions" : "ICT Graduates"
 },{
-  "floor" : "1",
+  "floor" : "",
   "name" : "Munchee",
   "logo" : "./images/companies/munchee.png",
   "location" : "",
-  "positions" : "Food Science / IBST,Human Resources Management,Marketing,Engineering,Finance"
+  "positions" : "Food Science / IBST,HR Management,Marketing,Engineering,Finance"
 },{
   "floor" : "1",
   "name" : "TechJobs",
   "logo" : "./images/companies/techjobs.png",
-  "location" : "",
+  "location" : "GF 05",
   "positions" : "Assistant Hydromechanical Engineer,Assistant Engineering (Plumbing),Maintainance Executive,Application Engineer (Compressed Air),Electrical Engineer"
 }]

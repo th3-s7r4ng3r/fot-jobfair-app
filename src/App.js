@@ -82,6 +82,15 @@ function App() {
         </div>
 
 
+        {/* Only Recruting */}
+        <Floor floorText="Recruiting Only" />
+        <div className='company-list'>
+          {searchResults.map((company) => (
+            company.floor === "" && <CompanyCard company={company} />
+          ))}
+        </div>
+
+
         {/* Footer Section */}
         <div className='footer-sec'>
           <Partnerships />
