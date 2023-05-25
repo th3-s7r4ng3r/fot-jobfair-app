@@ -22,6 +22,7 @@ const Footer = () => {
             </p>
           </div>
         </div>
+        <h4 className='copyright'>&#169; 2023 Career Skills Development Society | Made in <span>&#10084;</span> with React</h4>
       </div>
     );
 }

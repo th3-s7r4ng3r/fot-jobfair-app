@@ -1,87 +1,112 @@
-
 /* Footer Component */
 .footer {
-    background-color: rgba(0, 0, 0, 0.634);
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    width: 100%;
-    box-sizing: border-box;
-    padding: 25px;
-    border-radius: 5vw 5vw 0px 0px;
-  }
-  .footer-image{
-    width: 50vw;
-    object-fit: scale-down;
-    margin: 3vh;
-  }
-  .contact-us{
-    padding: 10px;
-    box-sizing: border-box;
-    width: 30vw;
-  }
-  .contacts{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: space-around;
-  }
-  .contact-us h3{
-    padding: 10px;
-    margin: 5px;
-  }
-  .contact-us p{
-    box-sizing: border-box;
-    font-size: 1.3rem;
-    text-align: left;
-    padding: 10px;
-    width: 80%;
-    border-radius: 15px;
-    margin: 10px 0px;
-    color: rgb(191, 191, 191);
-    background-color: #3e3e3e98;
-    min-width: 20vw;
-  }
-  .contact-us p p{
-    margin-top: 0px;
-    width: 100%;
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    border-radius: 10px;
-  }
+  background-color: rgba(0, 0, 0, 0.634);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 25px;
+  border-radius: 5vw 5vw 0px 0px;
+}
 
-  
-  /* Making Responsive */
-@media all and (max-width : 600px){
-  .footer{
+.footer-image {
+  width: 50vw;
+  object-fit: scale-down;
+  margin: 3vh;
+}
+
+.contact-us {
+  padding: 10px;
+  box-sizing: border-box;
+  width: 30vw;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.contact-us h3 {
+  padding: 10px;
+  margin: 5px;
+}
+
+.contact-us p {
+  box-sizing: border-box;
+  font-size: 1.3rem;
+  text-align: left;
+  padding: 10px;
+  width: 80%;
+  border-radius: 15px;
+  margin: 10px 0px;
+  color: rgb(191, 191, 191);
+  background-color: #3e3e3e98;
+  min-width: 20vw;
+}
+
+.contact-us p p {
+  margin-top: 0px;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  border-radius: 10px;
+}
+.copyright {
+  font-size: 1.2rem;
+  color: #d5d5d598;
+  font-weight: normal;
+  margin: 4vh 2vw 1vh;
+}
+.copyright span {
+  color: rgb(229, 77, 77);
+}
+
+
+
+/* Making Responsive */
+@media all and (max-width : 600px) {
+  .footer {
     border-radius: 10vw 10vw 0px 0px;
   }
-  .footer-image{
+
+  .footer-image {
     width: 90vw;
     margin: 3vh;
   }
-  .contact-us{
+
+  .contact-us {
     width: 100%;
     font-size: 1.8rem;
   }
-  .contact-us p{
+
+  .contact-us p {
     width: 100%;
   }
 }
 
-@media all and (max-width : 1200px){
-  .footer-image{
+@media all and (max-width : 1200px) {
+  .footer-image {
     width: 90vw;
     margin: 5vh;
   }
-  .contact-us{
+
+  .contact-us {
     width: 95%;
     font-size: 1.8rem;
   }
-  .contact-us p{
+
+  .contact-us p {
     width: 90%;
+    font-size: 1.15rem;
   }
+  .contact-us p p {
+    font-size: 1.3rem;
+  }
+
 }
